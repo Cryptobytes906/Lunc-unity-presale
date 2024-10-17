@@ -1,26 +1,25 @@
-
-Michael McNeil
-11:43 PM (0 minutes ago)
-to me
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: black;
-    color: white; /* Ensure text is visible on black background */
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
-header, section, footer {
+header {
     padding: 20px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    background-color: #333; /* Slightly lighter background for sections */
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    color: white;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center;
 }
 
 nav ul li {
@@ -30,5 +29,18 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white; /* Change link color for visibility */
+    color: white;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #444;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
 }
